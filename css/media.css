@@ -1,18 +1,24 @@
-@media screen (max-width: 1920px) {
-    .containerHeader .containerNav {
-        height: 400px;
+@media screen and (max-width: 1920px) {
+    .containerHeader {
+        background-color: red;
         max-width: 1920px;
     }  
+    .containerNav {
+        background-color: red;
+        max-width: 1920px;
+    }
     .containerImages .containerFooter {
         max-width: 1920px;   
     }
 }
-@media screen (max-width: 920px) {
-    .containerHeader .containerNav {
-        height: 400px;
+@media screen and (max-width: 920px) {
+    .containerHeader {
+        background-color: yellow; 
+    } 
+    .containerNav {
+        background-color: red;
         max-width: 920px;
-        
-    }  
+    }
     .containerImages .containerFooter {
         max-width: 920px;   
     }
